@@ -1,7 +1,0 @@
-# 工作区成员声明：只有下面这些目录是 JavaScript/TypeScript 包。
-# apps/api 是 Python 服务，没有 package.json，不参与 pnpm 安装与构建，
-# 因此这里不用 apps/* 通配，避免以后有人往里加 package.json 被误纳入。
-packages:
-  - "apps/web"
-  - "apps/admin"
-  - "packages/*"
