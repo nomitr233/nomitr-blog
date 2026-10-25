@@ -1,0 +1,24 @@
+#!/bin/sh
+# 推送守卫：拦截直接推送到 main 的行为。
+# 启用方式：git config core.hooksPath .githooks
+# 临时绕过：git push --no-verify
+
+remote="$1"
+url="$2"
+
+blocked=0
+while read -r local_ref local_sha remote_ref remote_sha; do
+    case "$remote_ref" in
+        refs/heads/main)
+            echo "✘ 禁止直接推送到 main。" >&2
+            echo "  请推 devloop，然后开 PR 合并：git push origin devloop" >&2
+            blocked=1
+            ;;
+    esac
+done
+
+if [ "$blocked" -ne 0 ]; then
+    exit 1
+fi
+
+exit 0

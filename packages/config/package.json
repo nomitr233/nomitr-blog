@@ -1,0 +1,6 @@
+{
+  "name": "@nomitr/config",
+  "version": "0.0.0",
+  "private": true,
+  "description": "共享工程配置：lint 规则、构建基础配置与格式化约定"
+}

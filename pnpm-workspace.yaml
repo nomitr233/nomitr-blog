@@ -1,0 +1,5 @@
+# 工作区成员声明：只有 apps/ 与 packages/ 下的目录是"包"，
+# content/ 放内容数据、docs/ 放文档，都不参与依赖安装与构建。
+packages:
+  - "apps/*"
+  - "packages/*"
