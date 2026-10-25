@@ -11,5 +11,9 @@ trim_trailing_whitespace = true
 [*.md]
 trim_trailing_whitespace = false
 
-[*.{yml,yaml}]
+# Python 社区惯例是 4 空格
+[*.py]
+indent_size = 4
+
+[*.{yml,yaml,toml}]
 indent_size = 2

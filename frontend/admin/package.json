@@ -1,0 +1,6 @@
+{
+  "name": "@nomitr/admin",
+  "version": "0.0.0",
+  "private": true,
+  "description": "文章管理后台：写作、发布、下架、标签维护"
+}

@@ -1,6 +1,0 @@
-{
-  "name": "@nomitr/api",
-  "version": "0.0.0",
-  "private": true,
-  "description": "后端服务：文章、评论、认证等数据接口"
-}

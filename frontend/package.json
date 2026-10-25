@@ -1,0 +1,16 @@
+{
+  "name": "nomitr-frontend",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Nomitr Blog 前端工作区：游客站与文章管理后台",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "pnpm -r --parallel --if-present dev",
+    "build": "pnpm -r --if-present build",
+    "lint": "pnpm -r --if-present lint",
+    "typecheck": "pnpm -r --if-present typecheck",
+    "test": "pnpm -r --if-present test"
+  }
+}

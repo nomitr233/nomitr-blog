@@ -10,8 +10,6 @@ importers:
 
   apps/admin: {}
 
-  apps/api: {}
-
   apps/web: {}
 
   packages/config: {}

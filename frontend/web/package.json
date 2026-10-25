@@ -1,0 +1,6 @@
+{
+  "name": "@nomitr/web",
+  "version": "0.0.0",
+  "private": true,
+  "description": "游客站：文章列表、详情、归档、标签等公开页面"
+}
